@@ -1,0 +1,14 @@
+C:\Users\eldes\source\repos\apis\Tareas.Database\bin\Debug\net6.0\Tareas.Database.deps.json
+C:\Users\eldes\source\repos\apis\Tareas.Database\bin\Debug\net6.0\Tareas.Database.runtimeconfig.json
+C:\Users\eldes\source\repos\apis\Tareas.Database\bin\Debug\net6.0\Tareas.Database.dll
+C:\Users\eldes\source\repos\apis\Tareas.Database\bin\Debug\net6.0\Tareas.Database.pdb
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.csproj.AssemblyReference.cache
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.AssemblyInfoInputs.cache
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.AssemblyInfo.cs
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.csproj.CoreCompileInputs.cache
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.dll
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\refint\Tareas.Database.dll
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.pdb
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\Tareas.Database.genruntimeconfig.cache
+C:\Users\eldes\source\repos\apis\Tareas.Database\obj\Debug\net6.0\ref\Tareas.Database.dll

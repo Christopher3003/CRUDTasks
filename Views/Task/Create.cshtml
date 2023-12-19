@@ -1,0 +1,53 @@
+﻿@model Tareas.Application.ViewModels.TasksSaveViewModel
+@{
+    bool editMode;
+    if (Model != null)
+    {
+        editMode = Model.Id == 0 ? false : true;
+    }
+    else
+    {
+        editMode = false;
+    }
+
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card ">
+                <div class="card-header bg-dark text-light">
+                    <h3>@(editMode ? $"Editando la tarea: {Model.Nombre}" : "Creando una nueva tarea")</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Task" asp-action="@(editMode ? "Update" : "Create")">
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre: </label>
+                            <input type="text" asp-for="Nombre" class="form-control">
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Descripcion: </label>
+                            <input type="text" asp-for="Description" class="form-control">
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Fecha" class="form-label">Imagen: </label>
+                            <input type="date" asp-for="Fecha" class="form-control">
+                        </div>
+
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Task" asp-action="Index" class="btn btn-warning">Volver atras</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

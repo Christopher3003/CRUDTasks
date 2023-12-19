@@ -1,0 +1,15 @@
+C:\Users\eldes\source\repos\apis\Tareas.Application\bin\Debug\net6.0\Tareas.Application.deps.json
+C:\Users\eldes\source\repos\apis\Tareas.Application\bin\Debug\net6.0\Tareas.Application.dll
+C:\Users\eldes\source\repos\apis\Tareas.Application\bin\Debug\net6.0\Tareas.Application.pdb
+C:\Users\eldes\source\repos\apis\Tareas.Application\bin\Debug\net6.0\Tareas.Database.dll
+C:\Users\eldes\source\repos\apis\Tareas.Application\bin\Debug\net6.0\Tareas.Database.pdb
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.csproj.AssemblyReference.cache
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.AssemblyInfoInputs.cache
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.AssemblyInfo.cs
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.csproj.CoreCompileInputs.cache
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.csproj.CopyComplete
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.dll
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\refint\Tareas.Application.dll
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\Tareas.Application.pdb
+C:\Users\eldes\source\repos\apis\Tareas.Application\obj\Debug\net6.0\ref\Tareas.Application.dll

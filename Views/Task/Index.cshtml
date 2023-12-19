@@ -1,0 +1,39 @@
+﻿@model List<Tareas.Application.ViewModels.TasksViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row mb-3">
+    <div class="col-3 offset-9">
+        <a asp-controller="Task" asp-action="Create" class="btn btn-outline-success">Crear Tarea</a>
+    </div>
+</div>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Fecha</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Nombre</td>
+                    <td>@item.Description</td>
+                    <td>@item.Fecha</td>
+                <td><a asp-controller="Task" asp-action="Delete" asp-route-id=@item.Id class="btn btn-outline-danger">Borrar</a></td>
+                <td><a asp-controller="Task" asp-action="Update" asp-route-id=@item.Id class="btn btn-outline-info">Actualizar</a></td>
+            </tr>
+            }
+        
+       
+    </tbody>
+</table>
